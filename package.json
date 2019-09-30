@@ -1,0 +1,31 @@
+{
+  "name": "lit-element-sample",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "webpack-dev-server --content-base ./ --port 3000 --compress --open",
+    "build:js": "webpack",
+    "build:ts": "webpack --config webpack.ts.config.js"
+  },
+  "author": "okamoai <okamoai@rano-raraku.net>",
+  "license": "MIT",
+  "dependencies": {
+    "@webcomponents/webcomponentsjs": "^2.3.0",
+    "core-js": "^3.2.1",
+    "lit-element": "^2.2.1",
+    "regenerator-runtime": "^0.13.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "babel-loader": "^8.0.6",
+    "copy-webpack-plugin": "^5.0.4",
+    "ts-loader": "^6.1.2",
+    "typescript": "^3.6.3",
+    "webpack": "^4.40.2",
+    "webpack-bundle-analyzer": "^3.5.1",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.1"
+  }
+}
